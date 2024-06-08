@@ -24,10 +24,15 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    overflow-x: hidden;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.slope {
+  clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
 }
