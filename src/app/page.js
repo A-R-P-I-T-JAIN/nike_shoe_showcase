@@ -153,19 +153,19 @@ export default function Home() {
           <div id='slope lg:slope' className="h-screen w-[75%] bg-black slope flex flex-col justify-center pl-5 sm:pl-7 gap-4 relative" >
               <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-7xl font-bold max-w-[50%]" >Nike.Just Do It.</h1>
               {/* <p className="text-5xl" >.Just Do It</p> */}
-              <p className="max-w-[50%] text-xs lg:text-xl font-semibold" >Step into excellence with Nike's latest collection of shoes. Engineered for comfort, style, and performance, our footwear is designed to help you conquer every challenge. Discover your perfect pair today and elevate your game.</p>
+              <p className="max-w-[50%] text-xs lg:text-xl font-semibold" >Step into excellence with Nike&#39;s latest collection of shoes. Engineered for comfort, style, and performance, our footwear is designed to help you conquer every challenge. Discover your perfect pair today and elevate your game.</p>
               <div className="flex gap-2" >
-                <Image src={insta} width={20} height={20} />
-                <Image src={twitter} width={20} height={20} />
-                <Image src={whatsapp} width={20} height={20} />
+                <Image src={insta} width={20} height={20} alt='insta' />
+                <Image src={twitter} width={20} height={20} alt='twitter' />
+                <Image src={whatsapp} width={20} height={20} alt='whatsapp' />
               </div>
               <div className="nav absolute top-0 left-0 flex gap-2 sm:gap-6 items-center">
-                <Image src={logo} width={isSmall || isLarge || isMedium?100:50} height={isSmall || isLarge || isMedium?60:40} className="pl-2 sm:pl-7" />
+                <Image src={logo} width={isSmall || isLarge || isMedium?100:50} height={isSmall || isLarge || isMedium?60:40} className="pl-2 sm:pl-7" alt='logo' />
                 <div className="flex gap-3 items-center" >
                   {/* <p className="text-xs sm:text-xs md:text-xs lg:text-xl" >New Collection</p> */}
                   <p className="text-xs sm:text-xs md:text-xs lg:text-xl" >Sneakers</p>
                   <p className="text-xs sm:text-xs md:text-xs lg:text-xl" >Sports</p>
-                </div>
+                </div> 
               </div>
           </div>
       </div>
